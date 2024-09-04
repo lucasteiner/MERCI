@@ -49,10 +49,11 @@ The input and output files must be in XYZ format, where each structure includes:
 - A comment line containing the energy.
 - The atom symbols and coordinates for each atom.
 
+```
 4
 -76.123456
 C 0.000000 0.000000 0.000000
 O 1.200000 0.000000 0.000000
 H -0.800000 0.800000 0.000000
 H -0.800000 -0.800000 0.000000
-
+```
