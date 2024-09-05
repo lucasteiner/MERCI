@@ -78,3 +78,17 @@ H -0.800000 -0.800000 0.000000
 ```
 
 
+Documentation of functions:
+
+    parse_xyz: Parses the XYZ file and returns a list of molecular structures (atoms and their coordinates).
+    calculate_moments_of_inertia: Computes the moment of inertia tensor for a set of atoms.
+    calculate_rmsd: Calculates the RMSD between two sets of coordinates.
+    kabsch: Applies the Kabsch algorithm to find the optimal rotation matrix between two sets of points.
+    reorder_by_centroid: Reorders atoms based on their distance from the centroid.
+    reorder_atoms_hungarian: Reorders atoms using the Hungarian algorithm to minimize distance between atoms.
+    invert_positions: Reverses the positions of an array, returning an index-to-position map.
+    find_best_sort_order_ensemble: Identifies the best sort order of atoms between reference and target ensembles based on RMSD.
+    reorder_molecule: Reorders a molecule based on the given sort order.
+    write_xyz: Writes the reordered molecular structures to an XYZ file.
+    main: Parses command-line arguments and manages the reordering process.
+
